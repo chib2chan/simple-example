@@ -2,14 +2,19 @@
 using System.Diagnostics;
 using System.Linq;
 using System.Xml.Linq;
-using _2sem4lab;
+using _2sem7lab;
 
-namespace _2sem4lab
+namespace _2sem7lab
 {
+    ///важно: не забудьте позднее подключить базу данных! Да хоть с экселя данные читайте,
+    ///главное, чтобы была БД с данными о заказах и пр.
     class Program
     {
         /// <summary>
-        /// Это приложение, но для официанта)
+        /// Это приложение для официанта
+        ///Данный файл в будущем может оказаться измененным или даже удаленным
+        ///по простой причине - он соответствует консольному приложению виндоус,
+        ///а необходимо реализовать приложение для винды с многопоточным программированием
         /// </summary>
         static void Main(string[] args)
         {
@@ -19,6 +24,7 @@ namespace _2sem4lab
 
             Restaurant restaurant = new();
             restaurant.RegisterStaff();
+            
             while (true)
             {
                 ChangeColor("Выберите одно из действий ниже:", ConsoleColor.DarkYellow);
@@ -55,6 +61,7 @@ namespace _2sem4lab
                         ChangeColor("Неверный ввод. Попробуйте ещё раз", ConsoleColor.Red);
                         break;
                 }
+                
                 ChangeColor("Введите enter, чтобы вернуться на главный экран...", ConsoleColor.DarkGray);
                 Console.ReadKey();
                 Console.Clear();

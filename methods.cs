@@ -1,12 +1,1 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _2sem4lab
-{
-    internal class methods
-    {
-    }
-}
+///короче. надо сделать все красиво. а не как обычно.

@@ -5,12 +5,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
-using _2sem4lab;
 
-namespace _2sem4lab
+namespace _2sem7lab
 {
     /// <summary>
-    /// класс "Ресторан" - методов мало не бывает!
+    /// методов мало не бывает!
     /// </summary>
     public class Restaurant
     {

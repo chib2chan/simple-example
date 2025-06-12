@@ -3,12 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using _2sem4lab;
 
-namespace _2sem4lab
+namespace _2sem7lab
 {
     /// <summary>
-    /// класс "Официант" - закончен
+    /// класс "Официант"
     /// </summary>
     public class Waiter
     {

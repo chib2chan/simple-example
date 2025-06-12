@@ -1,9 +1,8 @@
 ﻿using System;
 using System.Text;
 using System.Linq;
-using _2sem4lab;
 
-namespace _2sem4lab
+namespace _2sem7lab
 {
     /// <summary>
     /// класс "Заказ"
